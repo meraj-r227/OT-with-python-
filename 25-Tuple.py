@@ -23,3 +23,5 @@ Tupleica =  ("Metalica","Radiohead")
 listica = list(Tupleica) 
 listica.append("No clear  mind ")
 print(Fore.MAGENTA+str(listica))
+#Tuple  methods  ====>>  count  &  index  
+

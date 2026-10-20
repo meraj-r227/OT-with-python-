@@ -80,6 +80,8 @@ Info = platform.uname()
 if Info[0]  ==  "Windows":
     # exit  : print  text  and  exit  of  condition  
     exit("This tool  only works  on  linux  Distributions  ")            
+else :
+    pass     
     
     
 # pyngrok(py/N/go/rik):A python  library that  lets  you  put  your  local  website(local  host  like  xamp/zamp)   on internet       
