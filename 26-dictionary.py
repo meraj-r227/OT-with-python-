@@ -52,9 +52,23 @@ minidict = {"Uoda":994453}
 print(minidict["Uoda"]) 
 print(minidict.get("Uoda"))
 # show  keys =====>>>>>>
-print(minidict.keys())
+print(Fore.CYAN+str(minidict.keys()))
 # show value  ======>>>>
-print(minidict.values)    
+print(minidict.values())    
+#can we  cansider  every data for the  key  (int,str,....)
+#int &  float  &  bool 
+# WE  CAN'T  USE  DICT  &  LIST  & SET  FOR  DATA  THE  KEY  
+mydicter =  {
+    1:"set"
+    ,15.5:"Exam score"
+    ,True:"PASS"
+            }
+print(Fore.WHITE+str(mydicter.get(1)))
+print(Fore.WHITE+str(mydicter[15.5]))
+print(Fore.WHITE+str(mydicter[True]))
+
+
+ 
     
     
 
